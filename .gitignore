@@ -1,0 +1,11 @@
+.DS_Store
+
+tempv/
+changedv/
+archivev/
+
+*.m4v
+*.webm
+*.mkv
+*.mp4
+
