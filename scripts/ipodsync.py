@@ -14,24 +14,42 @@ print("iPodSync Gen5")
 print("=" * 40)
 print()
 
-url = input("YouTube URL: ").strip()
+urls = []
 
-if not url:
- print("No URL entered.")
- raise SystemExit
+print("Paste YouTube URLs")
+print("(blank line to start)")
+print()
+
+while True:
+    url = input("> ").strip()
+
+    if not url:
+        break
+
+    urls.append(url)
+
+if not urls:
+    print("No URL entered.")
+    raise SystemExit
 
 print()
 print("Downloading...")
 print()
 
-subprocess.run([
-"yt-dlp",
-"-f",
-"bestvideo[height<=480]+bestaudio/best[height<=480]",
-"-o",
-str(TEMPV / "%(title)s [%(id)s].%(ext)s"),
-url
-])
+for url in urls:
+
+    print()
+    print(f"Downloading: {url}")
+    print()
+
+    subprocess.run([
+        "yt-dlp",
+        "-f",
+        "bestvideo[height<=480]+bestaudio/best[height<=480]",
+        "-o",
+        str(TEMPV / "%(title)s [%(id)s].%(ext)s"),
+        url
+    ])
 
 print()
 print("Converting...")
