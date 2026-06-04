@@ -147,7 +147,7 @@ Q: Which iPod are you using?
 기술: PySide6
 목표: 터미널 사용 그만
 
-
+```
 +----------------------------------+
 |           iPodSync               |
 +----------------------------------+
@@ -158,6 +158,7 @@ Q: Which iPod are you using?
   Device: Gen5
   Output: changedv
 +----------------------------------+
+```
 
 ---
 
