@@ -1,4 +1,3 @@
-aetelsmac@Aetelsmacui-MacBookPro ipodsync % cat README.md
 # iPodSync
 
 > 2020년대의 영상 콘텐츠를 2000년대 iPod에서 가장 쉽게 재생할 수 있게 하는 프로그램
