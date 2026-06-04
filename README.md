@@ -1,3 +1,4 @@
+aetelsmac@Aetelsmacui-MacBookPro ipodsync % cat README.md
 # iPodSync
 
 > 2020년대의 영상 콘텐츠를 2000년대 iPod에서 가장 쉽게 재생할 수 있게 하는 프로그램
@@ -6,7 +7,7 @@
 
 # 탄생 배경
 
-iPod Classic은 현재도 뛰어난 음악 감상 기기이지만, 현대의 영상 포맷(WebM, MKV, H.265 등)을 직접 재생할 수 없다.  
+iPod Classic은 현재도 뛰어난 음악 감상 기기이지만, 현대의 영상 포맷(WebM, MKV, H.265 등)을 직접 재생할 수 없다.
 특히 iPod Video(5세대)는 다음과 같은 제약이 존재한다.
 
 - H.264 Baseline Profile 필요
@@ -24,18 +25,18 @@ iPod Classic은 현재도 뛰어난 음악 감상 기기이지만, 현대의 영
 5. iTunes로 전송
 6. iPod 동기화
 
-Handbrake같은 프로그램이 있으나, 복잡스럽고 무겁다. 반면에 iPodSync의 목적은 이 과정을 최대한 자동화하는 것이다.
+비록 Handbrake같은 프로그램이 있으나, 설정이 복잡하고 무겁다. 반면에 iPodSync의 목적은 이 과정을 최대한 자동화하는 것이다.
 
 ---
 
 # 프로젝트 목표
 
 # 단기 목표
-iPod Classic Gen5에서 재생 가능한 영상을 자동 생성한다.  
+iPod Classic Gen5에서 재생 가능한 영상을 자동 생성한다.
 사용자는 원하는 유튜브 링크 입력만 수행하고, 변환 등의 나머지 업무는 프로그램이 처리한다.
 
 ## 중기 목표
-여러 세대 iPod을 지원한다.
+여러 세대의 iPod을 지원한다.
 
 | 세대 | 모델 |
 |------|------|
@@ -69,7 +70,7 @@ iPod Classic Gen5에서 재생 가능한 영상을 자동 생성한다.
 
 ### v0.2 — 다운로드 자동화 개선
 
-상태: 완료  
+상태: 완료
 목표: 실사용 가능한 CLI 구축
 
 - 다중 URL 입력
@@ -144,7 +145,7 @@ Q: Which iPod are you using?
 
 ### v2.0 — GUI 버전
 
-기술: PySide6  
+기술: PySide6
 목표: 터미널 사용 그만
 
 
@@ -188,5 +189,5 @@ Q: Which iPod are you using?
 
 ---
 
-## 최종 비전
+## 최종 버전
 언젠가는 만들 수 있겠지?
